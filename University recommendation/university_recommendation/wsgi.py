@@ -14,3 +14,4 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'university_recommendation.settings')
 
 application = get_wsgi_application()
+print(f"Working Directory: {os.getcwd()}")
